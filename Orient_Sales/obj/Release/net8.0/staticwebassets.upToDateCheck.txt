@@ -1,0 +1,79 @@
+wwwroot\css\main.css
+wwwroot\downloads\Golf A4.pdf
+wwwroot\downloads\Orient-Company-Profile.pdf
+wwwroot\downloads\Orient-Cruises-Portfolio.pdf
+wwwroot\downloads\Orient-Grand-Rose-Sheet.pdf
+wwwroot\downloads\Orient-Nile-Romance-Sheet.pdf
+wwwroot\downloads\Orient-Sun-Times-Sheet.pdf
+wwwroot\downloads\Orient-Tower-Prestige-Sheet.pdf
+wwwroot\downloads\Sea Club A4 (5).pdf
+wwwroot\downloads\Stella-beach.pdf
+wwwroot\downloads\Stella-Gardens-Fact-Sheet.pdf
+wwwroot\html\home.html
+wwwroot\imgs\abdelrahman.jpg
+wwwroot\imgs\ahmedyounis.png
+wwwroot\imgs\aqua.png
+wwwroot\imgs\Aqua\34.png
+wwwroot\imgs\Aqua\35.png
+wwwroot\imgs\Aqua\36.png
+wwwroot\imgs\Aqua\37.png
+wwwroot\imgs\Aqua\38.png
+wwwroot\imgs\Aqua\39.png
+wwwroot\imgs\Aqua\4.png
+wwwroot\imgs\Aqua\42.png
+wwwroot\imgs\Aqua\5.png
+wwwroot\imgs\beach.jpg
+wwwroot\imgs\beach\1.jpg
+wwwroot\imgs\beach\2.jpg
+wwwroot\imgs\beach\3.jpg
+wwwroot\imgs\beach\4.jpg
+wwwroot\imgs\beach\5.jpg
+wwwroot\imgs\beach\6.jpg
+wwwroot\imgs\beach\7.jpg
+wwwroot\imgs\bishoy.png
+wwwroot\imgs\favicon.ico
+wwwroot\imgs\gardens.jpg
+wwwroot\imgs\Gardens\1.jpg
+wwwroot\imgs\Gardens\2.jpg
+wwwroot\imgs\Gardens\3.jpg
+wwwroot\imgs\Gardens\4.jpg
+wwwroot\imgs\Gardens\5.jpg
+wwwroot\imgs\Gardens\6.jpg
+wwwroot\imgs\Gardens\7.png
+wwwroot\imgs\Gardens\8.jpg
+wwwroot\imgs\golf.png
+wwwroot\imgs\Golf\1.png
+wwwroot\imgs\Golf\2.png
+wwwroot\imgs\hero.jpg
+wwwroot\imgs\karimosama.JPG
+wwwroot\imgs\lagoon.jpg
+wwwroot\imgs\Lagoon\1.jpg
+wwwroot\imgs\Lagoon\2.jpg
+wwwroot\imgs\Lagoon\3.png
+wwwroot\imgs\Lagoon\4.png
+wwwroot\imgs\logo-White.png
+wwwroot\imgs\logo.png
+wwwroot\imgs\mahmoud.jpg
+wwwroot\imgs\marianne.jpg
+wwwroot\imgs\mohamedjomaa.jpg
+wwwroot\imgs\nardeen.jpg
+wwwroot\imgs\nourhan1.jpg
+wwwroot\imgs\Orient Logo 2.jpg
+wwwroot\imgs\Orient.PNG
+wwwroot\imgs\Rania Montasser.jpg
+wwwroot\imgs\rehab.jpeg
+wwwroot\imgs\remon.JPG
+wwwroot\imgs\Screenshot 2025-08-26 at 1.48.48 PM.png
+wwwroot\imgs\Sea Club\1.jpg
+wwwroot\imgs\Sea Club\10.png
+wwwroot\imgs\Sea Club\2.png
+wwwroot\imgs\Sea Club\3.jpg
+wwwroot\imgs\Sea Club\5.png
+wwwroot\imgs\Sea Club\6.jpg
+wwwroot\imgs\Sea Club\7.png
+wwwroot\imgs\Sea Club\8.png
+wwwroot\imgs\Sea Club\9.png
+wwwroot\imgs\seaclub.png
+wwwroot\imgs\victoria.jpg
+wwwroot\imgs\yasmina1.jpg
+wwwroot\js\main.js

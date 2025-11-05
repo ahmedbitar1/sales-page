@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Orient_Sales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e5f7810544adc142fc9ff5c7434aab700b5ef30")]
 [assembly: System.Reflection.AssemblyProductAttribute("Orient_Sales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Orient_Sales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

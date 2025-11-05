@@ -30,3 +30,4 @@ C:\Users\ahmed.essamm\source\repos\Orient_Sales\Orient_Sales\Orient_Sales\obj\De
 C:\Users\ahmed.essamm\source\repos\Orient_Sales\Orient_Sales\Orient_Sales\obj\Debug\net8.0\Orient_Sales.pdb
 C:\Users\ahmed.essamm\source\repos\Orient_Sales\Orient_Sales\Orient_Sales\obj\Debug\net8.0\Orient_Sales.genruntimeconfig.cache
 C:\Users\ahmed.essamm\source\repos\Orient_Sales\Orient_Sales\Orient_Sales\obj\Debug\net8.0\ref\Orient_Sales.dll
+C:\Users\ahmed.essamm\source\repos\Orient_Sales\Orient_Sales\Orient_Sales\obj\Debug\net8.0\Orient_Sales.sourcelink.json

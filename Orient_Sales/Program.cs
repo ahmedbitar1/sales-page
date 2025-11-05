@@ -3,7 +3,7 @@ var app = builder.Build();
 
 app.UseDefaultFiles(new DefaultFilesOptions
 {
-    DefaultFileNames = new List<string> { "home.html" }
+    DefaultFileNames = new List<string> { "index.html" }
 });
 app.UseStaticFiles();
 
