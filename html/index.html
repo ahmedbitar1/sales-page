@@ -1,0 +1,620 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orient Hospitality Group</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wwwroot/css/main.css">
+    <link rel="icon" href="wwwroot/imgs/favicon.ico" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body> 
+    <!-- TOP BAR -->
+    <div class="container-fluid bg-footer py-3 fixed-top">
+        <div class="row">
+            <div class="col-6 d-flex align-items-center">
+                <a href="#">
+                    <img src="wwwroot/imgs/logo-White.png" alt="logo" class="img-fluid" style="max-width: 130px;">
+                </a> 
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+                <a target="_blank" href="https://www.orienthg.com/en" class="btn btn-gold text-white d-flex align-items-center me-3" style="font-size: 14px; padding: 8px 16px;">
+                    <i class="fas fa-home me-2"></i> Home
+                </a>
+                <!--<a href="#" class="btn btn-transparent text-white d-flex align-items-center" style="font-size: 14px; padding: 8px 16px;">
+                    <i class="fas fa-globe me-2"></i> Languages
+                </a>-->
+            </div>
+        </div>
+    </div>
+       
+    <!-- HERO -->
+    <div class="hero bg-cover bg-center" style="background-image: url('wwwroot/imgs/hero.jpg'); height: 100vh;">
+        <div class="d-flex justify-content-center align-items-center h-100">
+        </div>
+    </div>
+     
+    <!-- INTRO SECTION -->
+    <section class="intro py-5" style="background: #fff;">
+        <div class="text-center mb-4">
+            <div class="divider d-flex justify-content-center align-items-center">
+                <img src="wwwroot/imgs/logo.png" alt="Logo" class="logo-divider" style="background: #d5b35c; width: 100px; height: 100px; border-radius: 50%; display: inline-block;" />
+            </div>
+            <h2 class="section-title mt-3" style="font-size: 2.5rem; letter-spacing: 10px; color: #c7a25a;">ABOUT US</h2>
+            <hr style="width: 60px; height: 3px; background: #d5b35c; margin: 1rem auto;">
+        </div>
+    </section>
+
+    <!-- Paragraph Section -->
+    <section class="py-5" style="background: #fff; margin-top: -100px; margin-bottom: -100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-muted" style="font-size: 1.1rem; line-height: 1.9;">
+                        destinations along the Red Sea and a fleet of Nile Cruises in Luxor and Aswan. While we serve hospitality service a wide range of guests, we offer B2B partnership offering travel agents, tour operators, and corporate clients reliable room inventory, responsive coordination. Whilst reaching out for direct clients among multiple channels by mail, phone, direct bookings on website, or social media channels, and flexible solutions across multiple key destinations in Egypt with total of 19 properties through the following destinations:
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Profile Section with Dropdown and Download Arrow -->
+    <section class="py-5" style="background: #fff; margin-bottom: -40px">
+        <div class="container">
+            <div class="row align-items-start">
+                <!-- Destination List Section (unchanged) -->
+                <div class="col-md-7">
+                    <ul class="list-unstyled mt-4" style="line-height:3;">
+                        <li><i class="fas fa-play me-2" style="color: #c7a25a;"></i> <span style="color: #c7a25a;">MAKADI BAY</span></li>
+                        <li><i class="fas fa-play me-2" style="color: #c7a25a;"></i> <span style="color: #c7a25a;">AIN SOKHNA</span></li>
+                        <li><i class="fas fa-play me-2" style="color: #c7a25a;"></i> <span style="color: #c7a25a;">HURGHADA</span></li>
+                        <li><i class="fas fa-play me-2" style="color: #c7a25a;"></i> <span style="color: #c7a25a;">MARSA ALLAM</span></li>
+                        <li><i class="fas fa-play me-2" style="color: #c7a25a;"></i> <span style="color: #c7a25a;">SAHL HASHEESH</span></li>
+                        <li><i class="fas fa-play me-2" style="color: #c7a25a;"></i> <span style="color: #c7a25a;">LUXOR</span></li>
+                        <li><i class="fas fa-play me-2" style="color: #c7a25a;"></i> <span style="color: #c7a25a;">ASWAN</span></li>
+                    </ul>
+
+                </div>
+
+                <!-- Dropdown and Download Arrow Section -->
+                <div class="col-md-5 mt-5 text-center text-md-start">
+
+                    <!-- Title -->
+                    <div class="d-flex justify-content-center justify-content-md-start">
+                        <h4 class="text-uppercase text-white fw-bold d-inline-block"
+                            style="background-color: #003366; padding: 10px 20px; border-radius: 30px; margin-left: -200px;">
+                            Company Profile
+                        </h4>
+                    </div>
+
+                    <!-- Dropdown + Download Icon في نفس السطر -->
+                    <div class="mt-4 d-flex justify-content-center justify-content-md-start align-items-center">
+                        <select class="form-select d-inline-block" aria-label="Company Profiles"
+                                id="companyProfiles"
+                                style="border: 2px solid #003366; max-width: 280px; margin-left: -200px;">
+                            <option value="None" selected>None</option>
+                            <option value="hotels-resorts">Hotels &amp; Resorts</option>
+                            <option value="nile-cruises">Nile Cruises</option>
+                        </select>
+
+                        <!-- Download Icon -->
+                        <div class="download-icons ms-2">
+                            <a id="downloadLink" href="" download="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                     fill="none" stroke="#003366" stroke-width="3"
+                                     stroke-linecap="round" stroke-linejoin="round"
+                                     viewBox="0 0 24 24">
+                                    <path d="M12 3v13m0 0l-5-5m5 5l5-5"></path>
+                                    <path d="M4 19h16"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MAKAADI BAY SECTION-->
+    <section id="hotels" style="padding:10px 0 6px">
+        <div class="container">
+            <div class="acc">
+                <details open>
+                    <summary><span>Makaadi Bay</span> <span class="chev">▾</span></summary>
+                    <div class="hotel-grid">
+                        <!-- Hotel 1 -->
+                        <article class="hotel">
+                            <div class="ph" style="background-image:url('/imgs/beach.jpg')"></div>
+                            <div class="body">
+                                <div class="title">Stella Beach Resort & Spa</div>
+                                <a class="btn-website" target="_blank" href="https://www.orienthg.com/en/stella-beach-resort-spa">
+                                    <span> Visit Website</span>
+                                </a>
+                            </div>
+                            <div class="white-line"></div>
+                            <div class="bar">
+                                <a class="pill" target="_blank" href="wwwroot/downloads/Stella-beach.pdf"><i class="fas fa-file-alt"></i> Factsheet</a>
+                                <a class="pill" href="https://drive.google.com/drive/folders/1JDc5OdJFP698Fc6KWuiy92Ih5z2a9UfT" target="_blank">
+                                    <i class="fas fa-camera"></i> Photos
+                                </a>
+                                <a class="pill" target="_blank" href="https://www.tiktok.com/@stellabeachmakadi?_t=ZS-90ZJoMkcUi2&_r=1"><i class="fab fa-tiktok"></i> </a>
+                                <a class="pill" target="_blank" href="https://www.instagram.com/stellabeachmakadi?igsh=bXV4dnk1YzcxcXV3"><i class="fab fa-instagram"></i></a>
+                                <a class="pill" target="_blank" href="https://www.facebook.com/StellaBeachMakadi/"><i class="fab fa-facebook"></i> </a>
+                            </div>
+                        </article>
+
+                        <!-- Hotel 2 -->
+                        <article class="hotel">
+                            <div class="ph" style="background-image: url('wwwroot/imgs/gardens.jpg')"></div>
+                            <div class="body">
+                                <div class="title">Stella Gardens Resort & Spa</div>
+                                <a class="btn-website" target="_blank" href="https://www.orienthg.com/en/stella-gardens-resort-spa">
+                                    <span> Visit Website</span>
+                                </a>
+                            </div>
+                            <div class="white-line"></div>
+                            <div class="bar">
+                                <a class="pill" target="_blank" href="wwwroot/downloads/Stella-Gardens-Fact-Sheet.pdf"><i class="fas fa-file-alt"></i> Factsheet</a>
+                                <a class="pill" href="https://drive.google.com/drive/folders/1nx0VzUHuuYVbuGo7DY0tXubi-cIJ1Db-" target="_blank">
+                                    <i class="fas fa-camera"></i> Photos
+                                </a>
+                                <a class="pill" target="_blank" href="https://www.tiktok.com/@stellagardens?_t=ZS-90ZK1g0X34B&_r=1"><i class="fab fa-tiktok"></i> </a>
+                                <a class="pill" target="_blank" href="https://www.instagram.com/stella_gardens_makadi?igsh=ZzQ3NmM2Yms0YTRx"><i class="fab fa-instagram"></i></a>
+                                <a class="pill" target="_blank" href="https://www.facebook.com/share/1AFGCA5st7/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </article>
+
+                        <!-- Hotel 3 -->
+                        <article class="hotel">
+                            <div class="ph" style="background-image:url('/imgs/aqua.png')"></div>
+                            <div class="body">
+                                <div class="title">Stella Aqua Park</div>
+                                <a class="btn-website" target="_blank" href="https://www.orienthg.com/en/">
+                                    <span> Visit Website</span>
+                                </a>
+                            </div>
+                            <div class="white-line"></div>
+                            <div class="bar">
+                                <!--<a class="pill" href="#"><i class="fas fa-file-alt"></i> Factsheet</a>
+                                <a class="pill" href="../imgs/Aqua/4.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park">
+                                    <i class="fas fa-camera"></i> Photos
+                                </a>-->
+                                <!-- باقي الصور -->
+                                <!--<a href="../imgs/Aqua/5.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park"></a>
+                                <a href="../imgs/Aqua/34.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park"></a>
+                                <a href="../imgs/Aqua/35.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park"></a>
+                                <a href="../imgs/Aqua/36.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park"></a>
+                                <a href="../imgs/Aqua/37.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park"></a>
+                                <a href="../imgs/Aqua/38.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park"></a>
+                                <a href="../imgs/Aqua/39.png" data-lightbox="stella-aqua" data-title="Stella Aqua Park"></a>
+                                <a class="pill" target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="pill" href="#"><i class="fab fa-facebook"></i></a>-->
+                                <p style="color: #c7a25a; text-align: center; font-weight: 500 ; margin-left: 130px;">Coming soon</p>
+                            </div>
+                        </article>
+
+                        <!-- Hotel 4 -->
+                        <article class="hotel">
+                            <div class="ph" style="background-image:url('/imgs/lagoon.jpg')"></div>
+                            <div class="body">
+                                <div class="title">Stella Lagoon Resort & Spa</div>
+                                <a class="btn-website" target="_blank" href="https://www.orienthg.com/en/">
+                                    <span> Visit Website</span>
+                                </a>
+                            </div>
+                            <div class="white-line"></div>
+                            <div class="bar">
+                                <!--<a class="pill" href="#"><i class="fas fa-file-alt"></i> Factsheet</a>
+                                <a class="pill" href="../imgs/Lagoon/1.jpg" data-lightbox="stella-lagoon" data-title="Stella Lagoon Resort & Spa">
+                                    <i class="fas fa-camera"></i> Photos
+                                </a>-->
+                                <!-- باقي الصور -->
+                                <!--<a href="../imgs/Lagoon/2.jpg" data-lightbox="stella-lagoon" data-title="Stella Lagoon Resort & Spa"></a>
+                                <a href="../imgs/Lagoon/3.png" data-lightbox="stella-lagoon" data-title="Stella Lagoon Resort & Spa"></a>
+                                <a href="../imgs/Lagoon/4.png" data-lightbox="stella-lagoon" data-title="Stella Lagoon Resort & Spa"></a>
+                                <a class="pill" target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="pill" href="#"><i class="fab fa-facebook"></i></a>-->
+                                <p style="color: #c7a25a; text-align: center; font-weight: 500; margin-left: 160px;">Coming soon</p>
+                            </div>
+                        </article>
+                    </div>
+                </details>
+
+                <!-- Ain Sokhna -->
+                <details>
+                    <summary><span>Ain Sokhna</span> <span class="chev">▾</span></summary>
+                    <div class="hotel-grid">
+                        <!-- Hotel 1 -->
+                        <article class="hotel">
+                            <div class="ph" style="background-image: url('wwwroot/imgs/seaclub.png')"></div>
+                            <div class="body">
+                                <div class="title">Stella Sea Club Hotel</div>
+                                <a class="btn-website" target="_blank" href="https://www.orienthg.com/en/stella-sea-club-hotel">
+                                    <span> Visit Website</span>
+                                </a>
+                            </div>
+                            <div class="white-line"></div>
+                            <div class="bar">
+                                <a class="pill" target="_blank" href="wwwroot/downloads/Sea Club A4 (5).pdf"><i class="fas fa-file-alt"></i> Factsheet</a>
+                                <a class="pill" href="https://drive.google.com/drive/folders/1EHXVPd98l-eaTlKsY9HyE29a9L17FmKY" target="_blank">
+                                    <i class="fas fa-camera"></i> Photos
+                                </a>
+                                <a class="pill" target="_blank" href="https://www.tiktok.com/@stellaseaclub?_t=ZS-90ZKByCCJPD&_r=1"><i class="fab fa-tiktok"></i> </a>
+                                <a class="pill" target="_blank" href="https://www.instagram.com/stellaseaclub?igsh=MXQyNWh6czk3ejdsYQ=="><i class="fab fa-instagram"></i></a>
+                                <a class="pill" target="_blank" href="https://www.facebook.com/share/19sGBew6n6/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </article>
+
+                        <!-- Hotel 2 -->
+                        <article class="hotel">
+                            <div class="ph" style="background-image: url('wwwroot/imgs/golf.png')"></div>
+                            <div class="body">
+                                <div class="title">Stella Golf Club Hotel</div>
+                                <a class="btn-website" target="_blank" href="https://www.orienthg.com/en/stella-golf-hotel">
+                                    <span> Visit Website</span>
+                                </a>
+                            </div>
+                            <div class="white-line"></div>
+                            <div class="bar">
+                                <a class="pill" target="_blank" href="wwwroot/downloads/Golf A4.pdf"><i class="fas fa-file-alt"></i> Factsheet</a>
+                                <a class="pill" href="https://drive.google.com/drive/folders/1JnpDocXALa8WUEskIXf0yfhRgKmdUG5H" target="_blank">
+                                    <i class="fas fa-camera"></i> Photos
+                                </a>
+                                <a class="pill" target="_blank" href="https://www.tiktok.com/@stellagolf0?_t=ZS-90ZKK7k2VZY&_r=1"><i class="fab fa-tiktok"></i> </a>
+                                <a class="pill" target="_blank" href="https://www.instagram.com/stellagolfhotel?igsh=OWF5Zjh2bGgycnFs"><i class="fab fa-instagram"></i></a>
+                                <a class="pill" target="_blank" href="https://www.facebook.com/share/18rcokC3tu/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </details>
+
+                <!-- باقي الأقسام -->
+                <details><summary><span>Hurghada</span> <span class="chev">▾</span></summary></details>
+                <details><summary><span>Marsa Allam</span> <span class="chev">▾</span></summary></details>
+                <details><summary><span>Sahl Hasheesh</span> <span class="chev">▾</span></summary></details>
+                <details><summary><span>Luxor</span> <span class="chev">▾</span></summary></details>
+                <details><summary><span>Aswan</span> <span class="chev">▾</span></summary></details>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TEAM -->
+    <section class="team" id="team">
+        <div class="divider">
+            <img src="wwwroot/imgs/logo.png" alt="divider icon" class="dot">
+        </div>
+        <h2 class="section">MEET OUR TEAM</h2>
+        <hr style="width: 60px; height: 3px; background: #d5b35c; margin: 1rem auto;">
+        <p style="text-align:center">
+            Orient team is ready to support all your needs upon contact-<br />
+            or contact
+            <a href="mailto:info@orienthg.com" style="color: #d5b35c; text-decoration: none;">
+                info@orienthg.com
+            </a>
+            for other support.<br />
+            We are all glad to aid your needs.
+        </p>
+
+        <div class="container">
+            <div class="team-grid">
+                <!-- Cards -->
+                <div class="member"><img src="wwwroot/imgs/remon.JPG" alt=""><div class="name">Remon Naguib MBA, DBA</div><div class="role">Chief Commerical Officer (CCO)</div><div class="m-actions"><a class="m-btn" href="mailto:remon.naguib@orienthg.com"><i class="fa-solid fa-envelope"></i> remon.naguib@orienthg.com</a><a class="m-btn" href="tel:+201222200130"><i class="fa-solid fa-phone"></i> +201222200130</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/ahmedyounis.png" alt=""><div class="name">Ahmed Younis</div><div class="role">Regional Director of Sales & Marketing</div><div class="m-actions"><a class="m-btn" href="mailto:ahmed.younis@orienthg.com"><i class="fa-solid fa-envelope"></i> ahmed.younis@orienthg.com</a><a class="m-btn" href="tel:+201000196535"><i class="fa-solid fa-phone"></i> +201000196535</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/bishoy.png" alt=""><div class="name">Bishoy Agaibey</div><div class="role">Regional Director of Sales</div><div class="m-actions"><a class="m-btn" href="mailto:bishoy.agaibey@orienthg.com"><i class="fa-solid fa-envelope"></i> bishoy.agaibey@orienthg.com</a><a class="m-btn" href="tel:+201224581711"><i class="fa-solid fa-phone"></i> +201224581711</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/karimosama.jpg" alt=""><div class="name">Karim Osama</div><div class="role">Regional Director of Sales - Corporate</div><div class="m-actions"><a class="m-btn" href="mailto:karim.osama@orienthg.com"><i class="fa-solid fa-envelope"></i> karim.osama@orienthg.com</a><a class="m-btn" href="tel:+201001470218"><i class="fa-solid fa-phone"></i> +201001470218</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/rehab.jpeg" alt=""><div class="name">Rehab Saleh</div><div class="role">Division Director of Sales - Cruises</div><div class="m-actions"><a class="m-btn" href="mailto:rehab.saleh@orienthg.com"><i class="fa-solid fa-envelope"></i> rehab.saleh@orienthg.com</a><a class="m-btn" href="tel:+201009994440"><i class="fa-solid fa-phone"></i> +201009994440</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/marianne.jpg" alt=""><div class="name">Marianne Alfy</div><div class="role">Asst. Director of Sales - Corporate</div><div class="m-actions"><a class="m-btn" href="mailto:m.alfy@orienthg.com"><i class="fa-solid fa-envelope"></i> m.alfy@orienthg.com</a><a class="m-btn" href="tel:+201282299954"><i class="fa-solid fa-phone"></i> +201282299954</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/Rania Montasser.jpg" alt=""><div class="name">Rania Montasser</div><div class="role">Division Sales Manager - Cruises</div><div class="m-actions"><a class="m-btn" href="mailto:rania.montasser@orienthg.com"><i class="fa-solid fa-envelope"></i> rania.montasser@orienthg.com</a><a class="m-btn" href="tel:+201223451582"><i class="fa-solid fa-phone"></i> +201223451582</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/abdelrahman.jpg" alt=""><div class="name">Abdelrahman Amir</div><div class="role">Regional Marketing Manager</div><div class="m-actions"><a class="m-btn" href="mailto:a.amir@orienthg.com"><i class="fa-solid fa-envelope"></i> a.amir@orienthg.com</a><a class="m-btn" href="tel:+201006035555"><i class="fa-solid fa-phone"></i> +201006035555</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/victoria.jpg" alt=""><div class="name">Victoria Gladkova</div><div class="role">E-Commerce Manager</div><div class="m-actions"><a class="m-btn" href="mailto:victoria.g@orienthg.com"><i class="fa-solid fa-envelope"></i> victoria.g@orienthg.com</a><a class="m-btn" href="tel:+201000196535"><i class="fa-solid fa-phone"></i> +201000196535</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/yasmina1.jpg" alt=""><div class="name">Yasmine Kordia</div><div class="role">Asst. Sales Manager</div><div class="m-actions"><a class="m-btn" href="mailto:yasmina.wael@orienthg.com"><i class="fa-solid fa-envelope"></i> yasmina.wael@orienthg.com</a><a class="m-btn" href="tel:+201066764987"><i class="fa-solid fa-phone"></i> +201066764987</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/mohamedjomaa.jpg" alt=""><div class="name">Mohamed Jomaa</div><div class="role">Asst. Sales Manager</div><div class="m-actions"><a class="m-btn" href="mailto:mohamed.jomaa@orienthg.com"><i class="fa-solid fa-envelope"></i> mohamed.jomaa@orienthg.com</a><a class="m-btn" href="tel:+201015555061"><i class="fa-solid fa-phone"></i> +201015555061</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/nourhan1.jpg" alt=""><div class="name">Nourhan Khattab</div><div class="role">Marketing Executive</div><div class="m-actions"><a class="m-btn" href="mailto:n.khattab@orienthg.com"><i class="fa-solid fa-envelope"></i> n.khattab@orienthg.com</a><a class="m-btn" href="tel:+201000106408"><i class="fa-solid fa-phone"></i> +201000106408</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/mahmoud.jpg" alt=""><div class="name">Mahmoud Reda</div><div class="role">Sales Executive</div><div class="m-actions"><a class="m-btn" href="mailto:mahmoud.reda@orienthg.com"><i class="fa-solid fa-envelope"></i> mahmoud.reda@orienthg.com</a><a class="m-btn" href="tel:+201202122664"><i class="fa-solid fa-phone"></i> +201202122664</a></div></div>
+
+                <div class="member"><img src="wwwroot/imgs/nardeen.jpg" alt=""><div class="name">Nardeen Ehab</div><div class="role">Sales Executive</div><div class="m-actions"><a class="m-btn" href="mailto:nardeen@orienthg.com"><i class="fa-solid fa-envelope"></i> nardeen@orienthg.com</a><a class="m-btn" href="tel:+201203696682"><i class="fa-solid fa-phone"></i> +201203696682</a></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOLDING -->
+    <section class="holding">
+        <div class="divider">
+            <img src="wwwroot/imgs/logo.png" alt="divider icon" class="dot">
+        </div>
+        <h2 class="section" style="margin-bottom:10px">HOLDING COMPANY</h2>
+        <img class="hold-box" src="wwwroot/imgs/Screenshot 2025-08-26 at 1.48.48 PM.png" alt="BEK" style="max-width:50%;margin-left:290px;">
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews" id="reviews">
+        <div class="divider">
+            <img src="wwwroot/imgs/logo.png" alt="divider icon" class="dot">
+        </div>
+        <h2 class="section" style="color:#e7e7e7">OUR REVIEWS</h2>
+        <div class="container">
+            <div class="carousel">
+                <div class="track" id="revTrack">
+                    <div class="slide">
+                        <div class="card">
+                            <p>Excellent value Red Sea 4★. Very friendly staff, clean rooms, and perfect beach access with crystal clear water. We will definitely be back soon with family and friends!</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card">
+                            <p>Rooms are spotless; breakfast generous; the aqua park is amazing for kids. Staff were always smiling and helpful, making our holiday stress-free and fun. Highly recommended for families!</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card">
+                            <p>Professional team, great conference facilities. The meeting rooms were fully equipped, Wi-Fi strong, and coffee breaks excellent. Seamless business trip from check-in to check-out.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card">
+                            <p>The resort is beautifully designed, with lush gardens and stunning pools. Food options were diverse and tasty, from international buffets to fresh seafood by the beach.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card">
+                            <p>Animation team was fantastic, organizing fun activities for both kids and adults. Every evening had a different show which made our stay very entertaining and memorable.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card">
+                            <p>We stayed for a week and everything exceeded expectations. The spa services were relaxing, staff attentive, and the location close to major attractions was a big plus.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card">
+                            <p>Great hospitality and attention to detail. From the welcome drinks on arrival to the farewell at check-out, the team made us feel valued and truly at home.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rev-ctrl"><button class="rev-btn prev" id="prev">‹</button><button class="rev-btn next" id="next">›</button></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & OFFICE -->
+    <section class="contact" id="contact">
+        <div class="divider">
+            <img src="wwwroot/imgs/logo.png" alt="divider icon" class="dot">
+        </div>
+        <h2 class="section">ORIENT SALES & MARKETING</h2>
+        <p class="small">Do not hesitate to contact us should you have any inquiry or request. Please fill in the form below and our team will get back to you shortly.</p>
+        <div class="container">
+            <form class="form" onsubmit="event.preventDefault(); sendEmail(); this.reset();">
+                <input class="input" placeholder="First Name" required>
+                <input class="input" placeholder="Last Name" required>
+                <input class="input" type="email" placeholder="Email" required>
+                <input class="input" type="tel" placeholder="Phone">
+                <input class="input" placeholder="Company">
+                <input class="input" placeholder="Position">
+                <select class="input">
+                    <option>Inquiry Type</option>
+                    <option>Leisure</option>
+                    <option>Corporate</option>
+                    <option>Event</option>
+                </select>
+                <input class="input" placeholder="Preferred Hotel">
+                <textarea placeholder="Your message"></textarea>
+                <button class="send" type="submit">Send</button>
+            </form>
+
+
+            <div id="successMessage" class="success-message" style="display:none;text-align:center;color:lightslategrey;">
+                Thanks! We will contact you shortly.
+            </div>
+
+            <div class="office">
+                <div class="panel">
+                    <h4>CAIRO OFFICE ADDRESS</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            62 Nile Cornich, Maadi, Cairo, Egypt
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+225874948">+225874948</a> /
+                            <a href="tel:+225874949">+225874949</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@orienthg.com">info@orienthg.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            Sun–Thu 9:00–17:00
+                        </li>
+                    </ul>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.3962614019383!2d31.242484709642483!3d29.963973974859783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145847eea39a87c7%3A0x86b8c10c05eebaff!2sBayt%20El%20Khebra%20Group!5e1!3m2!1sen!2sus!4v1757859371623!5m2!1sen!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="foot-cols">
+                <div class="logo-col">
+                    <img src="wwwroot/imgs/logo-White.png" alt="logo">
+                </div>
+                <div class="vertical-line"></div>
+                <div class="vertical-line"></div>
+                <div>
+                    <h4>HOTELS & RESORTS</h4>
+                    <ul>
+                        <li><a href="https://www.orienthg.com/en/stella-beach-resort-spa" target="_blank" class="footer-link">Stella Lagoon Resort & Spa</a></li>
+                        <li><a href="https://www.orienthg.com/en/stella-beach-resort-spa" target="_blank" class="footer-link">Stella Beach Resort & Spa</a></li>
+                        <li><a href="https://www.orienthg.com/en/stella-gardens-resort-spa" target="_blank" class="footer-link">Stella Gardens Resort & Spa</a></li>
+                        <li><a href="https://www.orienthg.com/en/stella-sea-club-hotel" target="_blank" class="footer-link">Stella Sea Club Hotel</a></li>
+                        <li><a href="https://www.orienthg.com/en/stella-golf-hotel" target="_blank" class="footer-link">Stella Golf Hotel</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>NILE CRUISES</h4>
+                    <ul>
+                        <li><a href="https://www.orienthg.com/en/nile-cruises" target="_blank" class="footer-link">M/S Sun Times</a></li>
+                        <li><a href="https://www.orienthg.com/en/nile-cruises" target="_blank" class="footer-link">M/S Tower Prestige</a></li>
+                        <li><a href="https://www.orienthg.com/en/nile-cruises" target="_blank" class="footer-link">M/S Grand Rose</a></li>
+                        <li><a href="https://www.orienthg.com/en/nile-cruises" target="_blank" class="footer-link">M/S Nile Romance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>ORIENT HOSPITALITY</h4>
+                    <ul>
+                        <li><a href="https://www.orienthg.com/en/about-us" target="_blank" class="footer-link">About Us</a></li>
+                        <li><a href="https://www.orienthg.com/en/contact-us" target="_blank" class="footer-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>CONTACT US</h4>
+                    <ul>
+                        <li>62 Nile Cournaich-Next to Japan Embassy, Maadi, Cairo - Egypt</li>
+                        <li><a href="tel:+225874948" class="contact-link">+225874948</a> / <a href="tel:+225874949" class="contact-link">+225874949</a></li>
+                        <li><a href="mailto:info@orienthg.com" class="contact-link">info@orienthg.com</a></li>
+                        <li>
+                            <a href="https://www.facebook.com/StellaBeachMakadi/" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/stellabeachmakadi/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UClD2HYUDGyH8ZarBdm2TQhQ" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <span>All rights reserved © 2025 Bayt El Khebra Group<span></span> </span>
+                <span></span>
+                <span>Powered By <a target="_blank" href="https://www.bkgroupeg.com/en/" class="gold-link">Bayt El Khebra Group</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery لازم يتحمّل قبل lightbox -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <!-- اختيارات خفيفة لتشغيل wrap-around والأسهم -->
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,        // يخلّيك تقلب يمين/شمال
+            'showImageNumberLabel': false
+        });
+    </script>
+    <script>
+        // إخفاء أيقونة التحميل عند تحميل الصفحة
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector('.download-icons').style.display = 'none'; // إخفاء الأيقونة
+        });
+
+        // عندما يتغير الاختيار من الدروب داون
+        document.getElementById('companyProfiles').addEventListener('change', function () {
+            var selectedValue = this.value;
+            var downloadLink = document.getElementById('downloadLink');
+
+            // تغيير رابط التحميل بناءً على الاختيار
+            if (selectedValue === 'hotels-resorts') {
+                downloadLink.href = 'wwwroot/downloads/Orient-Company-Profile.pdf'; // رابط ملف Hotels & Resorts
+            } else if (selectedValue === 'nile-cruises') {
+                downloadLink.href = 'wwwroot/downloads/Orient-Cruises-Portfolio.pdf'; // رابط ملف Nile Cruises
+            } else {
+                downloadLink.href = ''; // لا شيء عند اختيار "None"
+            }
+
+            // إظهار أيقونة التحميل فقط إذا لم يكن الخيار "None"
+            if (selectedValue !== 'None') {
+                document.querySelector('.download-icons').style.display = 'block';
+            } else {
+                document.querySelector('.download-icons').style.display = 'none';
+            }
+        });
+
+    </script>
+    <script>
+        const track = document.getElementById("revTrack");
+        const slides = document.querySelectorAll(".slide");
+        const prevBtn = document.getElementById("prev");
+        const nextBtn = document.getElementById("next");
+
+        let index = 0;
+        const slideWidth = slides[0].offsetWidth; // الكارد + المسافة الجانبية
+
+        function updateCarousel() {
+            track.style.transform = `translateX(-${index * slideWidth}px)`;
+        }
+
+        nextBtn.addEventListener("click", () => {
+            if (index < slides.length - 1) {
+                index++;
+                updateCarousel();
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (index > 0) {
+                index--;
+                updateCarousel();
+            }
+        });
+
+        // (اختياري) auto-play كل 4 ثواني
+        setInterval(() => {
+            index = (index < slides.length - 1) ? index + 1 : 0;
+            updateCarousel();
+        }, 4000);
+    </script>
+    <script>
+        function sendEmail() {
+            // عرض الرسالة
+            var successMessage = document.getElementById("successMessage");
+            successMessage.style.display = "block";  // إظهار الرسالة
+            successMessage.classList.add("show");    // إضافة الكلاس لظهور التأثير
+
+            // إخفاء الرسالة بعد ثانيتين
+            setTimeout(function () {
+                successMessage.classList.remove("show");  // إزالة التأثير
+                setTimeout(function () {
+                    successMessage.style.display = "none";  // إخفاء الرسالة تماماً
+                }, 1000);  // تأخير لإخفاء الرسالة بعد الانتهاء من تأثير الإختفاء
+            }, 2000);  // 2 ثانية لعرض الرسالة
+        }
+
+    </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',  // اللغة الافتراضية
+                includedLanguages: 'en,ar',  // اللغات المدعومة (إنجليزي، عربي)
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="wwwroot/js/main.js"></script>
+</body>
+</html>
