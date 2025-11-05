@@ -899,3 +899,8 @@ html, body {
             height: 250px; /* تصغير الارتفاع شوية للموبايل */
         }
 }
+.disabled-link {
+    pointer-events: none;
+    color: #aaa !important;
+    text-decoration: none;
+}
